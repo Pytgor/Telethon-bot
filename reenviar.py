@@ -7,12 +7,12 @@ from telethon.tl.functions.messages import DeleteMessagesRequest
 from datetime import datetime
 
 # Tus credenciales
-api_id = 24983135
-api_hash = '990b1aa1329223073e0bc3fc9a62e568'
+api_id = 
+api_hash = ''
 
 # Nombres y enlaces de los grupos
-source_group = 'https://t.me/SinLimitesClub'
-target_group = 'https://t.me/SinLimitesRD'
+source_group = 'https://t.me/'
+target_group = 'https://t.me/'
 
 # Nombre de sesión y archivo de registro
 session_name = 'reenviador_videos'
