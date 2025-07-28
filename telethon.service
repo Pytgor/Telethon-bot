@@ -4,6 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
+# this is the user of your account
 User=ubuntu
 # this is the working directory, in others words my environment
 WorkingDirectory=/home/ubuntu/telethon-bot/venv
