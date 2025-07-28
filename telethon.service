@@ -5,8 +5,10 @@ After=network.target
 [Service]
 Type=simple
 User=ubuntu
+# this is the working directory, in others words my environment
 WorkingDirectory=/home/ubuntu/telethon-bot/venv
-ExecStart=/home/ubuntu/telethon-bot/venv/bin/python /home/ubuntu/telethon-bot/venv/reenviar.py
+# Below use the path of th environment name where venv is  my name environment and reenviar.py is the file that l will run
+ExecStart=/home/ubuntu/telethon-bot/venv/bin/python /home/ubuntu/telethon-bot/venv/reenviar.py 
 Restart=always
 
 [Install]
