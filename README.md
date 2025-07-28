@@ -1,7 +1,7 @@
 # How to Config a telethon bot in telegram
 
 1- Update Ubuntu Distro
-  a- <pre><code> sudo apt update -y && sudo apt upgrade -y </code></pre>
+  <pre><code> sudo apt update -y && sudo apt upgrade -y </code></pre>
 2- Installed Python and dependencies
   <pre><code> sudo apt install -y python3 python3.8-venv python3-pip </code></pre>
   
