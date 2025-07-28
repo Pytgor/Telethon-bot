@@ -15,7 +15,7 @@
     b- <pre><code>pip install telethon</code></pre>
 
 6- After that everything should be working and run your telethon python file to test with the next command 
-    a- python3 telethon.py or if it does not work try python instead python3
+    <pre><code>python3 telethon.py </code></pre> or if it does not work try python instead python3
 
 
 # Create a Service
