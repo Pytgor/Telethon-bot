@@ -1,0 +1,14 @@
+[Unit]
+Description=Telethon Bot Service
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/telethon-bot/venv
+ExecStart=/home/ubuntu/telethon-bot/venv/bin/python /home/ubuntu/telethon-bot/venv/reenviar.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
